@@ -1,5 +1,5 @@
 # **topMantleNFT**
-## a decentralized NFT marketplace build on Mantle
+## a decentralized NFT marketplace built on Mantle
 
 ![topMantle_logo](./imgs/topmantle_logo.png)
 
