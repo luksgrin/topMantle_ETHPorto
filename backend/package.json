@@ -1,0 +1,9 @@
+{
+  "name": "sismo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@sismo-core/zk-connect-server": "^0.0.2"
+  }
+}
