@@ -1,0 +1,151 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-link {
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar-link:hover {
+  color: #666;
+}
+
+.navbar-cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.cart-items {
+  position: absolute;
+  top: 0.5rem;
+  right: 2.5rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  z-index: 10;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.cart-item-img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.cart-item-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.cart-item-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.cart-total-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.cart-total-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.cart-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.cart-clear {
+  font-size: 1.2rem;
+  color: red;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.cart-clear:hover {
+  color: darkred;
+}
+
+.cart-send {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.cart-send:hover {
+  background-color: #666;
+}
+
+.cart-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.cart-sidebar {
+  position: fixed;
+  top: 5rem;
+  right: 1rem;
+  width: 30rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(5px);
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  z-index: ;
+}
+
+.NavTabs {
+}
+.NavContainer a {
+}
+.NavTabs a {
+  letter-spacing: 0.7px;
+}

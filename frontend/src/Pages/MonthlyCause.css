@@ -1,0 +1,153 @@
+.custom-card {
+  /* border: 1px solid #ccc; */
+}
+.pledge-card * {
+  color: white !important;
+  /* background-color: rgba(255, 255, 255, 0.03); */
+}
+.pledge-card {
+  max-width: 80%;
+  height: 80%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  height: 100%;
+}
+.payment-card {
+  max-height: 465px;
+}
+.content-column {
+  margin-top: 3rem;
+}
+.logo-container {
+  position: relative;
+  top: 1rem;
+  left: 1rem;
+}
+.avatar-container {
+  padding: 2rem;
+  padding-bottom: 1rem;
+}
+.Messages_Title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+.Pledge_Title {
+  font-size: 36px;
+}
+.logo-image {
+  border-radius: 35px;
+  max-width: 200px;
+  /* margin-left: auto; */
+  margin-right: auto;
+  transition: ease 0.5s;
+}
+.logo-image:hover {
+  transform: translateX(10px);
+}
+.sponsor-buttons {
+  column-count: 2;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.sponsor-buttons > .form-control {
+  flex: 1;
+}
+.NoCryptoLink {
+  /* color: #fff; */
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: 1s ease;
+}
+.NoCryptoLink:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .Pledge_Title {
+    font-size: 26px;
+  }
+}
+@media (min-width: 1001px) {
+  .pledge-content-card {
+    min-height: 465px;
+  }
+}
+@media (max-width: 1000px) {
+  .NoCryptoLink {
+    display: block;
+    width: 100%;
+  }
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 100%;
+  }
+  .logo-container {
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    left: initial;
+  }
+  .min-h-screen {
+    min-height: initial;
+  }
+}
+
+.p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.cardBodyCause {
+  padding: 1rem !important;
+  height: 100%;
+}
+
+.ImageBusiness {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-content > .new-proposal-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  height: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.based {
+  opacity: 0.5;
+}
+
+.hero-background {
+  /* background-image: url("https://ipfs-c1.doingud.com/ipfs/QmTj3o6q2nXGPRGuyZtCxkpoXPKXGeuREanJiw2eB5rSjJ"); */
+  background-repeat: no-repeat;
+}
+.hero-image-main > #causeid > div {
+  padding: 0.5 rem !important;
+}
+
+.hero-image-main > #causeid * {
+  color: #1a1616 !important;
+}

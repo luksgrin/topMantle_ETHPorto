@@ -1,0 +1,31 @@
+.PairCardPool * {
+  color: #fff !important;
+}
+.PairCardPool {
+  transition: all 0.2s ease-in-out !important;
+  background-color: #181f29;
+}
+.PairCardPool img {
+  border: none !important;
+  min-height: 58%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #1f2937;
+  padding: 1rem;
+}
+.PairCardPool:hover {
+  cursor: pointer;
+  /* margin-top: -5px; */
+  transform: translateY(-10px);
+  transition: all 0.2s ease-in-out !important;
+}
+
+.erc20_token {
+  max-width: 1rem;
+  max-height: 1rem;
+}
