@@ -67,16 +67,16 @@ Since we needed a stable coin to reference our market, we created the `BITUSD` E
 
 The addresses where all the protocol parts are deployed are shown below:
 
-```solidity
-LSSVMPairEnumerableETH = 0xcfe0e4255366c8dcb862c713c4076cc79b04fab7
-LSSVMPairMissingEnumerableETH = 0xd1add8906500fa133d81c5b641f66fa893c83f14
-LSSVMPairEnumerableERC20 = 0x478e65c49ade0952e5838be86f1dc1c1ac275157
-LSSVMPairMissingEnumerableERC20 = 0x172a56100ed404284338f5c38e874f109ff80a3d
-LSSVMPairFactory = 0x2c2077d29ed1784ae559e5f5ae527fae3d9fa8c3
-LSSVMRouter = 0x556589f7324fb1f3d038c6e1e2a025db99750d12
-ExponentialCurve = 0xf0722cdfc7072660f8e3e27761c4d8edaa1d8105
-LinearCurve = 0xf5b0f6c228c190e12936167f34ec1afd54920105
-```
+
+- **LSSVMPairEnumerableETH** = [0xcfe0e4255366c8dcb862c713c4076cc79b04fab7](https://explorer.testnet.mantle.xyz/address/0xCFe0e4255366c8DCb862c713c4076Cc79B04faB7)
+- **LSSVMPairMissingEnumerableETH** = [0xd1add8906500fa133d81c5b641f66fa893c83f14](https://explorer.testnet.mantle.xyz/address/0xD1ADD8906500FA133d81C5b641F66Fa893C83F14)
+- **LSSVMPairEnumerableERC20** = [0x478e65c49ade0952e5838be86f1dc1c1ac275157](https://explorer.testnet.mantle.xyz/address/0x478E65C49ADE0952e5838bE86F1DC1c1aC275157)
+- **LSSVMPairMissingEnumerableERC20** = [0x172a56100ed404284338f5c38e874f109ff80a3d](https://explorer.testnet.mantle.xyz/address/0x172A56100ED404284338F5c38E874F109ff80a3D)
+- **LSSVMPairFactory** = [0x2c2077d29ed1784ae559e5f5ae527fae3d9fa8c3](https://explorer.testnet.mantle.xyz/address/0x2c2077D29ed1784Ae559E5F5aE527FaE3D9Fa8c3)
+- **LSSVMRouter** = [0x556589f7324fb1f3d038c6e1e2a025db99750d12](https://explorer.testnet.mantle.xyz/address/0x556589F7324FB1f3d038c6e1e2A025DB99750d12)
+- **ExponentialCurve** = [0xf0722cdfc7072660f8e3e27761c4d8edaa1d8105](https://explorer.testnet.mantle.xyz/address/0xF0722CDfC7072660F8e3E27761C4D8EDAa1D8105)
+- **LinearCurve** = [0xf5b0f6c228c190e12936167f34ec1afd54920105](https://explorer.testnet.mantle.xyz/address/0xf5B0F6c228c190E12936167F34Ec1AFd54920105)
+
 
 ### **Public Goods**
 
