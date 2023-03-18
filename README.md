@@ -63,6 +63,21 @@ We also deployed an ERC20 token called `MantleMonke` (contract address: [`0xaDe2
 
 Since we needed a stable coin to reference our market, we created the `BITUSD` ERC20 token (contract address: [`0x00C6222A800Df9a4D8358Bbd65D3D7B142AA4B8B`](https://explorer.testnet.mantle.xyz/address/0x00C6222A800Df9a4D8358Bbd65D3D7B142AA4B8B)), whose emission is dictated by the BIT/USD pair price retrieved from the `Goerli` testnet by means of the [Pyth offchain pricefeed oracle](https://pyth.network/price-feeds/crypto-bit-usd?cluster=testnet). Our offchain server feeds this information into our `MasterOracle` contract (contract address: [`0x64a7B710578A1c68C3B63D836ADDfb9939c80b83`](https://explorer.testnet.mantle.xyz/address/0x64a7B710578A1c68C3B63D836ADDfb9939c80b83)), which `BITUSD` retrieves its price from whenever someone attempts to mint tokens.
 
+### **Protocol Implementation**
+
+The addresses where all the protocol parts are deployed are shown below:
+
+```solidity
+LSSVMPairEnumerableETH = 0xcfe0e4255366c8dcb862c713c4076cc79b04fab7
+LSSVMPairMissingEnumerableETH = 0xd1add8906500fa133d81c5b641f66fa893c83f14
+LSSVMPairEnumerableERC20 = 0x478e65c49ade0952e5838be86f1dc1c1ac275157
+LSSVMPairMissingEnumerableERC20 = 0x172a56100ed404284338f5c38e874f109ff80a3d
+LSSVMPairFactory = 0x2c2077d29ed1784ae559e5f5ae527fae3d9fa8c3
+LSSVMRouter = 0x556589f7324fb1f3d038c6e1e2a025db99750d12
+ExponentialCurve = 0xf0722cdfc7072660f8e3e27761c4d8edaa1d8105
+LinearCurve = 0xf5b0f6c228c190e12936167f34ec1afd54920105
+```
+
 ### **Public Goods**
 
 We deeply believe that web3 is a powerful tool to promote fair and responsible governance action and empower those who are voiceless. For that reason, we contribute part of the protocol's earned fees towards public goods previously voted by the **topMantle** community. This is done by setting the `protocolFeeRecipient` variable within the protocol to an address controlled by a benefic cause organization. Right now, we are rooting for the [ByeByePlastic Foundation](https://www.byebyeplastic.life/), but this can change in the future.
