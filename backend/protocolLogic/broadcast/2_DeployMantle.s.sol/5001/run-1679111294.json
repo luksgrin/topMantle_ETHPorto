@@ -1,0 +1,62 @@
+{
+  "transactions": [
+    {
+      "hash": "0x0b175c027af76bfad7c947b2634fca997feede6f6aa8a1a506da8e8e8d7ef00d",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x2c2077D29ed1784Ae559E5F5aE527FaE3D9Fa8c3",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://rpc.testnet.mantle.xyz",
+      "transaction": {
+        "type": "0x00",
+        "from": "0x55a7b5a459098192a401fed2fc334f740cd306e9",
+        "to": "0x2c2077d29ed1784ae559e5f5ae527fae3d9fa8c3",
+        "gas": "0x10ea3",
+        "value": "0x0",
+        "data": "0x6cc88edb000000000000000000000000556589f7324fb1f3d038c6e1e2a025db99750d120000000000000000000000000000000000000000000000000000000000000001",
+        "nonce": "0x8"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "transactionHash": "0x0b175c027af76bfad7c947b2634fca997feede6f6aa8a1a506da8e8e8d7ef00d",
+      "transactionIndex": "0x0",
+      "blockHash": "0x803300a0a20df7ac37e028bc66e813a3b178d706f10f2526c0b78cef9b4422c5",
+      "blockNumber": "0x1a52dc",
+      "from": "0x55a7B5A459098192a401Fed2fC334F740CD306E9",
+      "to": "0x2c2077D29ed1784Ae559E5F5aE527FaE3D9Fa8c3",
+      "cumulativeGasUsed": "0xc3f0",
+      "gasUsed": "0xc3f0",
+      "contractAddress": null,
+      "logs": [
+        {
+          "address": "0x2c2077D29ed1784Ae559E5F5aE527FaE3D9Fa8c3",
+          "topics": [
+            "0x24e274cfd23919da24a57044266685f5474338837aecdcca3136b2102f78fee5"
+          ],
+          "data": "0x000000000000000000000000556589f7324fb1f3d038c6e1e2a025db99750d120000000000000000000000000000000000000000000000000000000000000001",
+          "blockHash": "0x803300a0a20df7ac37e028bc66e813a3b178d706f10f2526c0b78cef9b4422c5",
+          "blockNumber": "0x1a52dc",
+          "transactionHash": "0x0b175c027af76bfad7c947b2634fca997feede6f6aa8a1a506da8e8e8d7ef00d",
+          "transactionIndex": "0x0",
+          "logIndex": "0x0",
+          "removed": false
+        }
+      ],
+      "status": "0x1",
+      "logsBloom": "0x00000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100240000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000800000000000000000000000000000000000"
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "path": "/Users/misirov/eth_porto/sudoswap_fork/sudo_mucho_mantel/backend/topMantle/broadcast/2_DeployMantle.s.sol/5001/run-latest.json",
+  "returns": {},
+  "timestamp": 1679111294,
+  "chain": 5001,
+  "multi": false,
+  "commit": "2929107"
+}

@@ -1,0 +1,35 @@
+{
+  "transactions": [
+    {
+      "hash": "0x63124d2a0ff4a99819f0e330998a525514f45ae9269d8621c4d37714e3fef0d3",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x2c2077D29ed1784Ae559E5F5aE527FaE3D9Fa8c3",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://rpc.testnet.mantle.xyz",
+      "transaction": {
+        "type": "0x00",
+        "from": "0x55a7b5a459098192a401fed2fc334f740cd306e9",
+        "to": "0x2c2077d29ed1784ae559e5f5ae527fae3d9fa8c3",
+        "gas": "0x1014c",
+        "value": "0x0",
+        "data": "0x4bf107c1000000000000000000000000f5b0f6c228c190e12936167f34ec1afd549201050000000000000000000000000000000000000000000000000000000000000001",
+        "nonce": "0xc"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x63124d2a0ff4a99819f0e330998a525514f45ae9269d8621c4d37714e3fef0d3"
+  ],
+  "path": "/Users/misirov/eth_porto/sudoswap_fork/sudo_mucho_mantel/backend/topMantle/broadcast/2_DeployMantle.s.sol/5001/run-latest.json",
+  "returns": {},
+  "timestamp": 1679111802,
+  "chain": 5001,
+  "multi": false,
+  "commit": "2929107"
+}
