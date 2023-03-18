@@ -78,6 +78,9 @@ The addresses where all the protocol parts are deployed are shown below:
 - **LinearCurve** = [0xf5b0f6c228c190e12936167f34ec1afd54920105](https://explorer.testnet.mantle.xyz/address/0xf5B0F6c228c190E12936167F34Ec1AFd54920105)
 
 
+#### Example ERC20 <> ERC721 pair pool
+Deployed at address [0xE044e780076a4E150189286C3c5D1A4e604D00b8](https://explorer.testnet.mantle.xyz/address/0xE044e780076a4E150189286C3c5D1A4e604D00b8)
+
 ### **Public Goods**
 
 We deeply believe that web3 is a powerful tool to promote fair and responsible governance action and empower those who are voiceless. For that reason, we contribute part of the protocol's earned fees towards public goods previously voted by the **topMantle** community. This is done by setting the `protocolFeeRecipient` variable within the protocol to an address controlled by a benefic cause organization. Right now, we are rooting for the [ByeByePlastic Foundation](https://www.byebyeplastic.life/), but this can change in the future.
